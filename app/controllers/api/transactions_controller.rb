@@ -1,7 +1,7 @@
 module Api
     class TransactionsController < ApplicationController
         def create
-            @fee = Fee.find(1)
+            @fee = Fee.last
             @transaction = Transaction.new(transaction_params)
 
             if @transaction.currency_send == 'usd' and @transaction.currency_receive == 'btc'
