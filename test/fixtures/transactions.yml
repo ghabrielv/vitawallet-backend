@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  currency_send: MyString
+  currency_receive: MyString
+  amount: 9.99
+
+two:
+  currency_send: MyString
+  currency_receive: MyString
+  amount: 9.99
